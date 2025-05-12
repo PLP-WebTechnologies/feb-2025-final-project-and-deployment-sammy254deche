@@ -39,6 +39,8 @@
 
 
 
+
+
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -70,3 +72,12 @@ nav ul li a {
     display: flex;
   }
 }
+
+
+
+
+
+
+document.getElementById("toggleMenu").addEventListener("click", () => {
+  document.querySelector("nav ul").classList.toggle("show");
+});
